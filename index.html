@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="timerContainer">
+            <div id="timerBox">
+                <h1 id="timer">10 : 00</h1>
+            </div>
+        </div>
+        <div id="main">
+            <div id="questionBox">
+                <p id="questionNum"></p>
+                <div id="questionContainer">
+                    <p id="question"></p>
+                </div>
+            </div>
+            <div id="optionsBox">
+                <button id="option1" class="options"></button>
+                <button id="option2" class="options"></button>
+                <button id="option3" class="options"></button>
+                <button id="option4" class="options"></button>
+            </div>
+            <button id="nextBtn"></button>
+            <button id="checkBtn" class="hide">Check Result</button>
+        </div>
+    </div>
+
+    <div id="container" class="hide">
+        <div id="resultContainer">
+            <h1 id="resultHeading">Quiz Result</h1>
+            <img src="./golden-winners-cup.png" id="trophyImg">
+            <h1 id="answersResult"></h1>
+            <h1 id="percentage">70%</h1>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.8.3/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
