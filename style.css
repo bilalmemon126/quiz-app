@@ -130,11 +130,12 @@ html{
     align-items: center;
     justify-content: center;
 }
-#resultHeading, #answersResult{
+#resultHeading{
     width: 100%;
     padding: 15px;
     color: white;
     text-align: center;
+    font-size: 2rem;
 }
 #answersResult, #percentage{
     width: 50%;
@@ -169,6 +170,12 @@ html{
     #optionsBox{
         height: 35vh;
     }
+    #resultContainer{
+        width: 80%;
+    }
+    #trophyImg{
+        width: 70%;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px){
     html{
@@ -180,12 +187,18 @@ html{
     #main{
         width: 70%;
     }
+    #resultContainer{
+        width: 70%;
+    }
 }
 @media only screen and (min-width: 767px) and (max-width: 991px){
     #timerBox{
         width: 55%;
     }
     #main{
+        width: 55%;
+    }
+    #resultContainer{
         width: 55%;
     }
 }
